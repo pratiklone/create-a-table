@@ -1,2 +1,18 @@
-# create-a-table
-CREATE TABLE table_name (     column1 datatype,     column2 datatype,     column3 datatype,    .... );
+#create a table 
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Allen Solly</td>
+    <td>Pratik Lone</td>
+    <td>Indian</td>
+  </tr>
+  <tr>
+    <td>Tata</td>
+    <td>Pradnesh lone</td>
+    <td>Indian</td>
+  </tr>
+</table>
