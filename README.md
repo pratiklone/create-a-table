@@ -11,8 +11,6 @@
     <td>Pratik Lone</td>
     <td>Indian</td>
     <th>20</th>
-    tr:nth-company(even) {
-  background-color: #D6EEEE;
 }
   </tr>
   <tr>
