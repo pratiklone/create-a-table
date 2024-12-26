@@ -11,7 +11,7 @@
     <td>Pratik Lone</td>
     <td>Indian</td>
     <th>20</th>
-}
+
   </tr>
   <tr>
     <td>Tata</td>
