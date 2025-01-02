@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Dealers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      background: #6a11cb;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    tr:nth-child(even) {
+      background: #f2f2f2;
+    }
+
+    tr:hover {
+      background: #e9e9ff;
+    }
+
+    td {
+      font-size: 14px;
+      color: #333;
+    }
+
+    caption {
+      margin: 15px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Car Dealers Information</caption>
+    <thead>
+      <tr>
+        <th>Dealer Name</th>
+        <th>Age</th>
+        <th>Car Brand</th>
+        <th>Car Model</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Carter</td>
+        <td>45</td>
+        <td>Tesla</td>
+        <td>Model S</td>
+        <td>New York</td>
+      </tr>
+      <tr>
+        <td>Emily Davis</td>
+        <td>39</td>
+        <td>BMW</td>
+        <td>X5</td>
+        <td>Los Angeles</td>
+      </tr>
+      <tr>
+        <td>Michael Lee</td>
+        <td>32</td>
+        <td>Ford</td>
+        <td>Mustang</td>
+        <td>Chicago</td>
+      </tr>
+      <tr>
+        <td>Sophia Brown</td>
+        <td>29</td>
+        <td>Honda</td>
+        <td>Civic</td>
+        <td>Houston</td>
+      </tr>
+      <tr>
+        <td>Daniel Smith</td>
+        <td>50</td>
+        <td>Mercedes</td>
+        <td>C-Class</td>
+        <td>Miami</td>
+      </tr>
+      <tr>
+        <td>Emma Wilson</td>
+        <td>42</td>
+        <td>Audi</td>
+        <td>A6</td>
+        <td>San Francisco</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
